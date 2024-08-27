@@ -1306,6 +1306,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-left: 45px;
   }
   .slides {
     width: 40%;
@@ -1514,11 +1515,17 @@ h1 {
 @media (max-width: 480px) {
   header .wrapper #task_baar .right .cover {
     /* display: none; */
-    width: 47%;
+    /* width: 47%;
     position: absolute;
     bottom: 355px;
-    right: -4px;
+    right: -4px; */
+    width: 50%;
+    position: absolute;
+    bottom: 350px;
+    right: 95px;
+    padding: 10px;
   }
+
   header {
     padding-top: 15px;
   }
@@ -1526,7 +1533,13 @@ h1 {
     padding-bottom: 30px;
   }
   header .wrapper #task_baar .right .cover {
-    padding: 10px 15px;
+    padding: 10px;
+  }
+  .sportlight .wrapper .spo ul li .car img {
+    width: 40px;
+  }
+  .sportlight .wrapper .spo ul li .car_1 img {
+    width: 40px;
   }
   #nav-menu .cover .cover {
     display: block;
@@ -1561,6 +1574,15 @@ h1 {
   }
   .feedback .wrapper .respons {
     display: block;
+  }
+  .newslide {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .rectangle {
+    width: 4%;
   }
   .footer .wrapper .top {
     display: flex;
@@ -1697,6 +1719,40 @@ h1 {
   }
 }
 @media (max-width: 360px) {
+  header .wrapper #task_baar .right .cover input {
+    width: 100%;
+  }
+  header .wrapper #task_baar .right .cover {
+    padding: 10px;
+  }
+  header .wrapper #task_baar .right .cover {
+    /* display: none; */
+    width: 50%;
+    position: absolute;
+    bottom: 350px;
+    right: 45px;
+    padding: 10px;
+  }
+  .newslide {
+    display: flex;
+    width: 90%;
+    gap: 35px;
+    margin-left: 20px;
+  }
+  .open-menu {
+    margin-left: 215px;
+  }
+  header .wrapper #task_baar .right .cover {
+    /* display: none; */
+    width: 50%;
+    position: absolute;
+    bottom: 355px;
+    right: 55px;
+    padding: 5px;
+  }
+  .rectangle {
+    width: 6%;
+  }
   #nav-menu {
     width: 35%;
   }
@@ -1718,7 +1774,7 @@ h1 {
     font-size: 16px;
   }
   .sportlight .wrapper .light .banner .shop a {
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
   }
   .card_right h3 {
     font-size: 18px;
@@ -1751,7 +1807,7 @@ h1 {
     font-size: 12px;
   }
   .fashion .wrapper .fash .left .content .shops a {
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
   }
   .fashion .wrapper .fash .left {
     border-radius: 8px 8px 0px 0px;
