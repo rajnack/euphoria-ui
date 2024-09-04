@@ -1077,12 +1077,40 @@ h1 {
   margin: 20px 0 20px 0;
   font-family: core_sans_c65_bold;
 }
+@media (max-width: 1400px) {
+  .sportlight .wrapper .light .banner h2 {
+    width: 45%;
+  }
+  .sportlight .wrapper .light .banner small {
+    font-size: 28px;
+  }
+  .sportlight .wrapper .light .banner .shop a {
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+  .sportlight {
+    padding: 80px 40px;
+  }
+  .sportlight .wrapper .light .banner {
+    padding: 80px 0 0 80px;
+  }
+  .sportlight .wrapper .light .banner h2 {
+    margin: 15px 0;
+  }
+}
 @media (max-width: 1280px) {
   .sportlight {
     min-height: 140vh;
+    padding: 40px 40px;
+  }
+  .footer .wrapper .bottum .bottom_left ul li a .icon {
+    padding: 6px;
+    width: 35px;
+    height: 35px;
   }
   .sportlight .wrapper .light .banner h2 {
-    width: 56%;
+    width: 45%;
+    font-size: 60px;
   }
   .fashion .wrapper .fash .left .content h6 {
     width: 100%;
@@ -1113,6 +1141,60 @@ h1 {
     height: 60vh;
   }
 }
+@media (max-width: 1100px) {
+  .newcard {
+    width: 20%;
+  }
+  .footer .wrapper .top ul li a {
+    font-size: 16px;
+  }
+  .footer .wrapper .top ul li h1 {
+    font-size: 24px;
+  }
+  .card_right h3 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .fashion .wrapper .fash .left .content h6 {
+    font-size: 30px;
+  }
+  .fashion .wrapper .fash .left .content p {
+    font-size: 18px;
+  }
+  .fashion .wrapper .fash .left .content .shops a {
+    padding: 12px 40px;
+  }
+  .Brands .wrapper .Brand h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .Brands .wrapper .Brand p {
+    font-size: 18px;
+  }
+  .Brands .wrapper .Brand .deals ul li div {
+    padding: 0px 18px;
+    display: flex;
+    align-items: center;
+    width: 100.52px;
+    height: 80.55px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .feedback .wrapper .main .bottum h3 {
+    font-size: 18px;
+  }
+  .footer .wrapper .bottum .footer_bottom h2 {
+    font-size: 22px;
+  }
+  .footer .wrapper .bottum .bottom_right h1 {
+    font-size: 22px;
+  }
+  .footer .wrapper .bottum p {
+    font-size: 16px;
+  }
+}
 @media (max-width: 980px) {
   header .wrapper #task_baar .left nav ul {
     gap: 18px;
@@ -1135,16 +1217,18 @@ h1 {
     min-height: 104vh;
   }
   .sportlight .wrapper .light .banner {
-    margin-top: 43px;
+    /* margin-top: 43px; */
+    /* padding: 10px 50px; */
+    padding: 40px 0 0 80px;
   }
 
   .sportlight .wrapper .light .banner h2 {
-    width: 65%;
-    font-size: 65px;
+    width: 45%;
+    font-size: 55px;
     font-weight: 600;
   }
   .sportlight .wrapper .light .banner .shop a {
-    padding: 10px 55px;
+    padding: 10px 50px;
     font-size: 18px;
     font-weight: 600;
   }
@@ -1174,7 +1258,7 @@ h1 {
     margin-bottom: 40px;
   }
   .fashion .wrapper .fash .left .content .shops a {
-    padding: 10px 55px;
+    padding: 10px 50px;
     font-size: 18px;
     font-weight: 600;
   }
@@ -1289,7 +1373,33 @@ h1 {
   }
   .sportlight .wrapper .light .banner h2 {
     line-height: 80.62px;
-    font-size: 55px;
+    font-size: 40px;
+  }
+  .sportlight .wrapper .light .banner small {
+    font-size: 20px;
+  }
+  .sportlight .wrapper .light .banner h2 {
+    margin: 8px 0;
+  }
+  .sportlight .wrapper .light .banner .shop a {
+    padding: 10px 40px;
+  }
+  .fashion .wrapper .fash .left .content .shops a {
+    padding: 10px 40px;
+  }
+  .card_left h3 {
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .card_right h3 {
+    font-size: 44px;
+    font-weight: 100;
+  }
+  .fashion .wrapper .fash .left {
+    border-radius: 8px 8px 0 0;
+  }
+  .fashion .wrapper .fash .right {
+    border-radius: 0px 0px 8px 8px;
   }
   .card-one {
     flex-wrap: wrap;
@@ -1423,14 +1533,25 @@ h1 {
     padding-left: 70px;
   }
   .sportlight .wrapper .light .banner h2 {
-    font-size: 44px;
+    font-size: 37px;
     font-weight: 400;
+  }
+  .sportlight .wrapper .light .banner small {
+    font-size: 18px;
   }
   .sportlight .wrapper .light .banner .shop {
     margin: 25px 0px;
   }
   .sportlight .wrapper .light .banner .shop a {
-    padding: 10px 45px;
+    padding: 10px 35px;
+    font-size: 16px;
+  }
+  .footer .wrapper .top ul li a {
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .footer .wrapper .bottum .bottom_left ul li a .icon {
+    padding: 10px;
   }
   .new {
     padding-bottom: 0px;
@@ -1443,7 +1564,7 @@ h1 {
     font-size: 16px;
   }
   .fashion .wrapper .fash .left .content .shops a {
-    padding: 10px 45px;
+    padding: 10px 40px;
   }
   .fashion .wrapper .fash .left {
     height: 80vh;
@@ -1512,6 +1633,37 @@ h1 {
     font-size: 12px;
   }
 }
+@media (max-width: 640px) {
+  .sportlight .wrapper .light .banner h2 {
+    font-size: 34px;
+  }
+  .sportlight .wrapper .light .banner small {
+    font-size: 16px;
+  }
+  .card_left h3 {
+    font-size: 35px;
+  }
+  .card_right h3 {
+    font-size: 36px;
+  }
+  .newarrow_2 {
+    right: 1%;
+  }
+  .fashion .wrapper .fash .left .content .shops a {
+    padding: 10px 35px;
+  }
+  .newarrow {
+    bottom: 6px;
+    width: 54px;
+    height: 30px;
+  }
+  .feedback .wrapper .main {
+    height: 72vh;
+  }
+  .footer .wrapper .top {
+    width: 109%;
+  }
+}
 @media (max-width: 480px) {
   header .wrapper #task_baar .right .cover {
     /* display: none; */
@@ -1567,6 +1719,7 @@ h1 {
   }
   .feedback .wrapper .main {
     width: 100%;
+    height: 47vh;
     margin-bottom: 10px;
   }
   .feedback .wrapper .main:last-child {
@@ -1589,7 +1742,7 @@ h1 {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .footer {
     padding: 25px 30px;
@@ -1617,13 +1770,29 @@ h1 {
   }
 
   .footer .wrapper .top ul li a {
-    font-size: 11px;
+    font-size: 8px;
+  }
+  .footer .wrapper .top {
+    gap: 8px;
   }
 
-  .footer .bottum .last {
+  /* .footer .bottum .last {
     display: flex;
     flex-direction: column;
     align-items: center;
+  } */
+  .footer .wrapper .bottum .bottom_left ul li a .icon {
+    width: 8px;
+    height: 8px;
+  }
+  .footer .wrapper .bottum .last {
+    gap: 10px;
+  }
+  .footer .wrapper .bottum .footer_bottom h2 {
+    font-size: 16px;
+  }
+  .footer .wrapper .bottum p {
+    font-size: 8px;
   }
 
   .footer .bottum .bottom_left,
@@ -1660,24 +1829,47 @@ h1 {
   }
   .sportlight .wrapper .light .banner h2 {
     line-height: 55.62px;
-    font-size: 35px;
+    font-size: 28px;
   }
   .sportlight .wrapper .light .banner small {
-    font-size: 16px;
+    font-size: 14px;
   }
   .sportlight .wrapper .light .banner .shop a {
     padding: 10px 20px;
+    font-size: 14px;
+  }
+  .card_left h3 {
+    font-size: 24px;
+  }
+  .card_left p {
+    font-size: 14px;
+  }
+  .card_left a {
     font-size: 16px;
+  }
+  .card_right p {
+    font-size: 16px;
+  }
+  .card_right h3 {
+    font-size: 27px;
+  }
+  .card_right p {
+    font-size: 14px;
+  }
+  .newarrow {
+    bottom: -1px;
+    right: 4%;
+    display: flex;
   }
   .fashion .wrapper .fash .left .content .shops a {
     padding: 10px 20px;
     font-size: 16px;
   }
-  .newarrow {
+  /* .newarrow {
     bottom: 5px;
     right: 8%;
     display: flex;
-  }
+  } */
   .cat_women .wrapper .women .newcard_1 .newarrow button {
     padding: 5px 10px;
   }
@@ -1717,6 +1909,12 @@ h1 {
   .sportlight .wrapper .light .banner .shop a {
     padding: 10px 25px;
   }
+  .sportlight .wrapper .light .left img {
+    display: none;
+  }
+  .sportlight .wrapper .right img {
+    display: none;
+  }
 }
 @media (max-width: 360px) {
   header .wrapper #task_baar .right .cover input {
@@ -1727,10 +1925,10 @@ h1 {
   }
   header .wrapper #task_baar .right .cover {
     /* display: none; */
-    width: 50%;
+    width: 70%;
     position: absolute;
-    bottom: 350px;
-    right: 45px;
+    bottom: 342px;
+    right: 75px;
     padding: 10px;
   }
   .newslide {
@@ -1742,14 +1940,7 @@ h1 {
   .open-menu {
     margin-left: 215px;
   }
-  header .wrapper #task_baar .right .cover {
-    /* display: none; */
-    width: 50%;
-    position: absolute;
-    bottom: 355px;
-    right: 55px;
-    padding: 5px;
-  }
+
   .rectangle {
     width: 6%;
   }
@@ -1758,7 +1949,7 @@ h1 {
   }
 
   .sportlight {
-    min-height: 100vh;
+    min-height: 80vh;
   }
   .sportlight .wrapper .light .banner {
     padding: 0px 0px 0px 20px;
@@ -1768,10 +1959,10 @@ h1 {
   }
   .sportlight .wrapper .light .banner h2 {
     line-height: 40.62px;
-    font-size: 31px;
+    font-size: 23px;
   }
   .sportlight .wrapper .light .banner small {
-    font-size: 16px;
+    font-size: 14px;
   }
   .sportlight .wrapper .light .banner .shop a {
     /* padding: 5px 15px; */
@@ -1794,6 +1985,13 @@ h1 {
   .card_left a {
     font-size: 16px;
   }
+  .card_left {
+    height: 45vh;
+  }
+  .arrow {
+    width: 15px;
+  }
+
   h1 {
     font-size: 20px;
   }
@@ -1801,7 +1999,7 @@ h1 {
     font-size: 14px;
   }
   .fashion .wrapper .fash .left .content h6 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .fashion .wrapper .fash .left .content p {
     font-size: 12px;
@@ -1864,7 +2062,150 @@ h1 {
     padding: 0px;
   }
   .newarrow {
-    bottom: 10px;
-    right: 15px;
+    bottom: -23px;
+    left: 10px;
+  }
+  .feedback .wrapper .main {
+    height: 49vh;
+  }
+  .footer .wrapper .top ul li h1 {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 0px;
+  }
+  .footer .wrapper .top {
+    padding: 0px;
+  }
+  .footer .wrapper .top ul li h1 {
+    margin: 20px 0;
+  }
+  .footer .wrapper .top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    /* flex-wrap: wrap; */
+    height: 72vh;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer .wrapper .bottum {
+    padding: 10px;
+  }
+  .footer .wrapper .bottum .footer_bottom h2 {
+    font-size: 14px;
+  }
+  .footer .wrapper .bottum .bottom_right h1 {
+    font-size: 14px;
+  }
+  .footer .wrapper .bottum .bottom_left ul li a .icon {
+    width: 6px;
+    height: 6px;
+  }
+  .footer .wrapper .bottum .bottom_right ul li a img {
+    width: 100%;
+  }
+  .card-content h5 a {
+    font-size: 14px;
+  }
+  .card-content p a {
+    font-size: 12px;
+  }
+  .slides p a {
+    font-size: 13px;
+  }
+  .fashion .wrapper .fash .left .content .shops a {
+    /* padding: 5px 15px; */
+    margin-bottom: 15px;
+  }
+  .dealer {
+    background-color: #fff;
+    padding: 25px 0;
+    margin-bottom: 40px;
+  }
+  .fashion {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  .Categories {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  .footer .wrapper .bottum .footer_bottom img {
+    width: 6%;
+  }
+  .footer .wrapper .top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+    height: 112vh;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer .wrapper .top ul li a {
+    font-size: 12px;
+  }
+  .card_right {
+    height: 45vh;
+  }
+}
+@media (max-width: 320px) {
+  header .wrapper #task_baar .right .cover {
+    /* display: none; */
+    width: 86%;
+    position: absolute;
+    bottom: 348px;
+    right: 35px;
+    padding: 5px;
+  }
+  #nav-menu .cover {
+    gap: 12px;
+  }
+  .sportlight .wrapper .light .banner .shop a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .newarrow_2 {
+    top: 45%;
+  }
+  .cate h1 {
+    font-size: 18px;
+  }
+  .fashion .wrapper .fash .left .content .shops a {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .open-menu {
+    margin-left: 190px;
+  }
+  .sportlight .wrapper .light .banner h2 {
+    font-size: 20px;
+  }
+  .footer .wrapper .bottum .footer_bottom img {
+    width: 5%;
+  }
+  .feedback .wrapper .main {
+    height: 53vh;
+  }
+  .footer .wrapper .top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+    height: 112vh;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer .wrapper .top ul li a {
+    font-size: 12px;
+  }
+  .footer .wrapper .top ul li h1 {
+    font-size: 14px;
   }
 }
