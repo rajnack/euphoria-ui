@@ -2104,7 +2104,7 @@ h1 {
     height: 6px;
   }
   .footer .wrapper .bottum .bottom_right ul li a img {
-    width: 100%;
+    width: 80%;
   }
   .card-content h5 a {
     font-size: 14px;
@@ -2151,6 +2151,9 @@ h1 {
   .card_right {
     height: 45vh;
   }
+  .footer .wrapper .bottum .last {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 320px) {
   header .wrapper #task_baar .right .cover {
@@ -2160,6 +2163,9 @@ h1 {
     bottom: 348px;
     right: 35px;
     padding: 5px;
+  }
+  .footer .wrapper .bottum .bottom_right ul li a img {
+    width: 80%;
   }
   #nav-menu .cover {
     gap: 12px;
